@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-diesel = { version = "2.2.5", features = ["serde_json", "postgres", "r2d2", "chrono", "uuid", "extras"] } # uuidv07
-diesel-async = {version="0.5.1", features = ["postgres", "pool"]}
+diesel = { version = "2.2.5", features = ["extras", "i-implement-a-third-party-backend-and-opt-into-breaking-changes"] } # uuidv07
 uuid = { version = "1.11", features = ["serde", "v4", "js"] }
 serde = { version = "1.0", features = ["derive", "rc"] }
